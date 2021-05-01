@@ -1,0 +1,32 @@
+{
+  "name": "homebridge-apa102-rgb",
+  "version": "1.0.0",
+  "description": "Homebridge plugin for RGB APA102 LED strip",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/romaintalleu/homebridge-apa102-rgb.git"
+  },
+  "keywords": [
+    "homebridge-plugin",
+    "homebridge",
+    "apa102",
+    "rgb"
+  ],
+  "dependencies": {
+    "rpio": "^0.9.12"
+  },
+  "engines": {
+    "node": ">=0.12.0",
+    "homebridge": ">=0.2.0"
+  },
+  "author": "Romain talleu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/romaintalleu/homebridge-apa102-rgb/issues"
+  },
+  "homepage": "https://github.com/romaintalleu/homebridge-apa102-rgb#readme"
+}

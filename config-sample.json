@@ -1,0 +1,22 @@
+{
+	"bridge": {
+		"name": "Homebridge",
+		"username": "CC:22:3D:E3:CE:30",
+		"port": 51826,
+		"pin": "031-45-154"
+	},
+	"description": "An example configuration of RGB APA102 LED strip with Raspberry PI",	
+	"accessories": [
+		{
+			"accessory": "APA102-RGB",
+			"name": "APA102 Led strip",
+			"ledCount": 8,
+			"dataPin": 23,
+			"clockPin": 24,
+			"manufacturer": "APA102-RBG",
+			"model": "APA102-RGB",
+			"serial": "15822776-AB07-4DF8-9E0A-D17EE5ED0DA1"
+		}
+	],
+	"platforms": []
+}
